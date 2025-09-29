@@ -1,0 +1,47 @@
+/***********************      Start Global Style       ***********************/
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-BoldItalic.ttf);
+}
+body{
+    font-family: Montserrat;
+}
+/***********************      End Global Style       ***********************/
+header{
+    background-image: url(../images/bg-image.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/***********************      Start Font Color Style       ***********************/
+.text-first-color{
+    color: #be8c53;
+}
+.text-second-color{
+    color: #e5d8c9;
+}
+.text-third-color{
+    color: #ffc000;
+}
+/***********************       End Font Color Style        ***********************/
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2::before{
+    content: "-";
+}

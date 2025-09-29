@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--& ================== Title of Page ================== &-->
+    <title>Quotes App</title>
+    <!--& ================== Start Meta Tags ================== &-->
+    <meta name="description" content="Responsive website Generate Quote" />
+    <meta
+    name="keywords"
+    content="Quote,Quotes App,Quotes ,Quotes Application,Generate Quote,Quote Generator "
+    />
+    <!--& ==================  End Meta Tags  ================== &-->
+    <!--& ================== Start CSS Links ================== &-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <!--& ==================  End CSS Links  ================== &-->
+    <!--& ==================  Icon of the page in header  ================== &-->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="title pt-5">
+            <h1 class="text-first-color">Quote of the Day</h1>
+            <p class="text-second-color">
+              Press the button below to recieve a random quote!
+            </p>
+            <button class="btn btn-warning mb-5" onclick="GenerateQuote()">
+              Generate New Quote
+            </button>
+          </div>
+
+          <div
+            class="quote position-relative d-flex flex-wrap justify-content-center align-items-center flex-column"
+          >
+            <img
+              src="./images/quote-bg.png"
+              alt="quote background image"
+              class="w-100 d-block"
+            />
+            <div
+              class="content d-flex flex-wrap justify-content-center align-items-center flex-column"
+            >
+              <p id="newQuote" class="w-50 ps-2 text-second-color">
+                I have not failed. I've just found 10,000 ways that won't work.
+              </p>
+              <h2 id="newAuther" class="h6 text-third-color">
+                Thomas A. Edison
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+        <!--& ================== Start JS Links ================== &-->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+        <!--& ==================  End JS Links ================== &-->
+  </body>
+</html>
