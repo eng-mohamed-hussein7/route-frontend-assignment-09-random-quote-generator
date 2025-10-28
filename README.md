@@ -27,3 +27,7 @@ Includes custom logic to ensure that the same quote doesn’t repeat twice in a 
 ## 🚀 Live Demo
 Check it out here 👇  
 🔗 [Random Quote Generator](https://eng-mohamed-hussein7.github.io/route-frontend-assignment-09-random-quote-generator/)
+
+---
+
+🧑‍💻 Built as part of the **Route Academy Frontend JavaScript Track**
